@@ -1,0 +1,28 @@
+{
+    "total_points_available": 25,
+    "tests": [
+        {
+            "output": {
+                "points_available": 5,
+                "win_ratio": 0.0,
+                "points_awarded": null,
+                "num_invalid_moves": 7,
+                "num_timeouts": 13
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_vgfqnuhs/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 75, in test_beats_Kshitish\n    self.evaluate_against(TestAI(method='thadSpecialPlayer'), 0.85)\n  File \"run.py\", line 62, in evaluate_against\n    \"Your player didn't win more than a %f fraction of the games.\" % win_thresh)\nAssertionError: Your player didn't win more than a 0.850000 fraction of the games.\n",
+            "description": "Beats Kshitish's secret Eval Function"
+        },
+        {
+            "output": {
+                "points_available": 20,
+                "win_ratio": 0.05,
+                "points_awarded": null,
+                "num_invalid_moves": 1,
+                "num_timeouts": 18
+            },
+            "traceback": "Traceback (most recent call last):\n  File \"/home/vmuser_vgfqnuhs/AIResult.py\", line 26, in func_wrapper\n    ans = func(self)\n  File \"run.py\", line 68, in test_beats_iterativealphabeta\n    self.evaluate_against(TestAI(method='iterativeAlphaBeta'), 0.65)\n  File \"run.py\", line 62, in evaluate_against\n    \"Your player didn't win more than a %f fraction of the games.\" % win_thresh)\nAssertionError: Your player didn't win more than a 0.650000 fraction of the games.\n",
+            "description": "Beats Iterative Alphabeta"
+        }
+    ],
+    "total_points_awarded": 0
+}
